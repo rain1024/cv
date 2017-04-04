@@ -1,110 +1,127 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.3 (29/10/16)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com) with modifications by:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same 
-% directory as this .tex file. These files provide the resume style and themes 
-% used for structuring the document.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[11pt,a4paper,sans]{article} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
-
-
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,a4paper,sans]{article} 
+% Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{lipsum} 
+% Reduce document margins
+\usepackage[scale=0.75]{geometry} 
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
 \usepackage{color}
-
 \usepackage{lipsum}
 \usepackage{lmodern}
 \usepackage{tcolorbox}
 \usepackage{tikz}
-\usepackage{hyperref}
-%----------------------------------------------------------------------------------------
-
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{makecell}
+\usepackage{amsmath}
+\newcommand\x{-1}
+\newcommand\xr{15.2}
 \begin{document}
 \vspace*{2.4cm}
 \begin{tikzpicture}[remember picture,overlay]
 	\definecolor{backgroundcolor}{RGB}{140,21,21}
 	\node [rectangle, fill=backgroundcolor, below=1.5cm, anchor=north, minimum width=\paperwidth, minimum height=4.2cm] (box) at (current page.north){};
-	\node [right] at (-0.2,3.5) {
+	\node [right] at (\x,3.5) {
 		{\fontsize{0.8cm}{0cm}\selectfont {\color{white} \textbf{Curriculum Vitae}}}
 	};
-	\node [right] at (-0.2,2.6) {
+	\node [right] at (\x,2.6) {
 		{\fontsize{0.5cm}{0cm}\selectfont {\color{white} \textbf{Vu Anh}}}
 	};
-	\node [right] at (-0.2,2) {
+	\node [right] at (\x,2) {
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} Big Data Team}}
 	};
-	\node [right] at (-0.2,1.6) {
+	\node [right] at (\x,1.6) {
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} 1link JSC}}
 	};
-	\node [right] at (-0.2,1.2) {
-		{\fontsize{0.32cm}{0cm}\selectfont {\color{yellow} \href{mailto:brother.rain.1024@gmail.com}{brother.rain.1024@gmail.com}}}
+	\node [right] at (\x,1.2) {
+		{\fontsize{0.32cm}{0cm}\selectfont {\color{yellow} \href{brother.rain.1024@gmail.com}{brother.rain.1024@gmail.com}}}
 	};
-    \node [left] at (17,3.5) { 
+    \node [left] at (\xr,3.5) { 
 		{\color{white} April 4, 2017}
     };
-	\node [left] at (17,2.6) { 
+	\node [left] at (\xr,2.6) { 
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{yellow} \href{http://magizbox.com}{http://magzibox.com}}}
     };
-    \node [left] at (17,2) { 
+    \node [left] at (\xr,2) { 
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} 463 Doi Can, Ba Dinh}}
     };
-    \node [left] at (17,1.6) { 
+    \node [left] at (\xr,1.6) { 
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} Ha Noi, Viet Nam}}
     };
 \end{tikzpicture}
 
-\section{Education}
+\section*{Education}
 
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
+\textbf{B.A., Software Engineer}
+\hfill
+\textit{2009-2014} \\
+Good Certificate
+\hfill
+Hanoi University of Science and Technology, Viet Nam
 
-% To remove the cover letter, comment out this entire block
+\section*{Experience}
 
-\clearpage
+\textbf{Natural Language Processing Researcher}
+\hfill
+\textit{2016-present} \\
+\textit{2017}: underthesea - open source NLP toolkit
+\hfill
+1link, Viet Nam
+\\
+\textit{2016}: Second Place in the shared task of Named Entity Recognition 
+\\\\
+\textbf{Solution Leader}
+\hfill
+\textit{2014-2015} \\
+\textit{2015}: Social Box
+\hfill
+1link, Viet Nam
+\\
+Build system for mining social media data
+\\
+\textit{2014}: Big Crawler\\
+Build large scale and flexible crawler framework using Big Data technologies
+
+\section*{Publications}
+
+\textbf{Named Entity Recognition in Vietnamese using CRF}
+\hfill
+\textit{VLSP'16} \\
+\underline{Vu Anh}, Le Minh Tuan, Le Minh Hung
+\\
+Archive 85.6 $F_{1}$
+
+\section*{Certifications}
+
+\textbf{Machine Learning}
+\hfill
+\textit{April 2016-present} \\
+License MNE2P9TPHPSY
+\hfill
+\href{https://www.coursera.org/account/accomplishments/verify/MNE2P9TPHPSY}{coursera} 
+\\\\
+\textbf{Introduction to Recommender Systems}
+\hfill
+\textit{Jan 2016-present} \\
+License 3YBRMFSZ5A8T
+\hfill
+\href{https://www.coursera.org/account/accomplishments/verify/3YBRMFSZ5A8T}{coursera} 
+
+\section*{Qualifications}
+
+\textit{Major languages}: Vietnamese, Python, Java, C/C++, Javascript, R
+\\
+\textit{Libraries and tools}: TensorFlow, Theano, Standford CoreNLP, scikit-learn, pandas
 
 
-\date{\today} % Letter date
 
-\lipsum[1-2] % Dummy text
-\lipsum[4] % Dummy text
+\end{document}
 
 
 
-\newpage
-
-%----------------------------------------------------------------------------------------
-%	CURRICULUM VITAE
-%----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 \end{document}

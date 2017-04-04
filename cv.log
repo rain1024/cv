@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.14)  4 APR 2017 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.14)  4 APR 2017 15:24
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -576,6 +576,91 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
+(C:\Users\rain\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box45
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks31
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
+(C:\Users\rain\AppData\Roaming\MiKTeX\2.9\tex\latex\makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen168
+\extrarowheight=\dimen169
+\NC@list=\toks32
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\rotheadsize=\dimen170
+\c@nlinenum=\count125
+\TeXr@lab=\toks33
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen171
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen172
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count126
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count127
+\leftroot@=\count128
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count129
+\DOTSCASE@=\count130
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen173
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count131
+\c@MaxMatrixCols=\count132
+\dotsspace@=\muskip11
+\c@parentequation=\count133
+\dspbrk@lvl=\count134
+\tag@help=\toks35
+\row@=\count135
+\column@=\count136
+\maxfields@=\count137
+\andhelp@=\toks36
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
+\@envbody=\toks37
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 
 LaTeX Warning: Unused global option(s):
     [sans].
@@ -583,21 +668,21 @@ LaTeX Warning: Unused global option(s):
 (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 24.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -637,17 +722,17 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (C:\Users\rain\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen163
-\scratchbox=\box45
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen164
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count138
+\scratchdimen=\dimen180
+\scratchbox=\box48
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen181
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks40
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -662,8 +747,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 48.
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring OFF on input line 24.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -671,44 +756,77 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (cv.out) (cv.out)
 \@outlinefile=\write6
 \openout6 = `cv.out'.
 
- [1
 
-{C:/Users/rain/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+Underfull \hbox (badness 10000) in paragraph at lines 69--89
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+ []
+
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 95.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--114
+
+ []
+
+[1
+
+{C:/Users/rain/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 9967EF72F09882A50A556EAE9E9F3309;45.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17525 strings out of 493333
- 343198 string characters out of 3139197
- 503294 words of memory out of 3000000
- 20790 multiletter control sequences out of 15000+200000
- 27527 words of font info for 23 fonts, out of 3000000 for 9000
+ 18594 strings out of 493333
+ 356028 string characters out of 3139197
+ 524131 words of memory out of 3000000
+ 21815 multiletter control sequences out of 15000+200000
+ 42769 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,6n,73p,824b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-9.pfb>
-Output written on cv.pdf (2 pages, 87332 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
+Output written on cv.pdf (1 page, 157998 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
