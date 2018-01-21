@@ -1,44 +1,46 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
+% AnhV's CV
+% Last update: April 2017
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
-\documentclass[11pt,a4paper,sans]{article} 
-% Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage{lipsum} 
-% Reduce document margins
+\documentclass[11pt,a4paper,roman]{article} 
 \usepackage[scale=0.75]{geometry} 
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 \usepackage{color}
+\definecolor{maincolor}{RGB}{140,21,21}
 \usepackage{lipsum}
 \usepackage{lmodern}
 \usepackage{tcolorbox}
 \usepackage{tikz}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
-\usepackage{makecell}
 \usepackage{amsmath}
-\newcommand\x{-1}
+\usepackage{pifont}
+
+
+\newcommand\xl{-1}
 \newcommand\xr{15.2}
+
 \begin{document}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{{\hspace{-1em}\color{maincolor} \ding{118}}}{0.4em}{}
+  
 \vspace*{2.4cm}
 \begin{tikzpicture}[remember picture,overlay]
 	\definecolor{backgroundcolor}{RGB}{140,21,21}
 	\node [rectangle, fill=backgroundcolor, below=1.5cm, anchor=north, minimum width=\paperwidth, minimum height=4.2cm] (box) at (current page.north){};
-	\node [right] at (\x,3.5) {
+	\node [right] at (\xl,3.5) {
 		{\fontsize{0.8cm}{0cm}\selectfont {\color{white} \textbf{Curriculum Vitae}}}
 	};
-	\node [right] at (\x,2.6) {
+	\node [right] at (\xl,2.6) {
 		{\fontsize{0.5cm}{0cm}\selectfont {\color{white} \textbf{Vu Anh}}}
 	};
-	\node [right] at (\x,2) {
+	\node [right] at (\xl,2) {
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} Big Data Team}}
 	};
-	\node [right] at (\x,1.6) {
+	\node [right] at (\xl,1.6) {
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} 1link JSC}}
 	};
-	\node [right] at (\x,1.2) {
+	\node [right] at (\xl,1.2) {
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{yellow} \href{brother.rain.1024@gmail.com}{brother.rain.1024@gmail.com}}}
 	};
     \node [left] at (\xr,3.5) { 
@@ -48,14 +50,14 @@
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{yellow} \href{http://magizbox.com}{http://magzibox.com}}}
     };
     \node [left] at (\xr,2) { 
-		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} 463 Doi Can, Ba Dinh}}
+		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} 459 Doi Can, Ba Dinh}}
     };
     \node [left] at (\xr,1.6) { 
 		{\fontsize{0.32cm}{0cm}\selectfont {\color{white} Ha Noi, Viet Nam}}
     };
 \end{tikzpicture}
 
-\section*{Education}
+\section{Education}
 
 \textbf{B.A., Software Engineer}
 \hfill
@@ -64,7 +66,7 @@ Good Certificate
 \hfill
 Hanoi University of Science and Technology, Viet Nam
 
-\section*{Experience}
+\section{Experience}
 
 \textbf{Natural Language Processing Researcher}
 \hfill
@@ -73,7 +75,7 @@ Hanoi University of Science and Technology, Viet Nam
 \hfill
 1link, Viet Nam
 \\
-\textit{2016}: Second Place in the shared task of Named Entity Recognition 
+\textit{2016}: Second Place in the shared task of Named Entity Recognition VLSP'16 
 \\\\
 \textbf{Solution Leader}
 \hfill
@@ -87,16 +89,16 @@ Build system for mining social media data
 \textit{2014}: Big Crawler\\
 Build large scale and flexible crawler framework using Big Data technologies
 
-\section*{Publications}
+\section{Publications}
 
 \textbf{Named Entity Recognition in Vietnamese using CRF}
 \hfill
 \textit{VLSP'16} \\
 \underline{Vu Anh}, Le Minh Tuan, Le Minh Hung
 \\
-Archive 85.6 $F_{1}$
+Archive 85.6 $F_{1}$, SOTA in nested NER tag
 
-\section*{Certifications}
+\section{Certifications}
 
 \textbf{Machine Learning}
 \hfill
@@ -112,16 +114,10 @@ License 3YBRMFSZ5A8T
 \hfill
 \href{https://www.coursera.org/account/accomplishments/verify/3YBRMFSZ5A8T}{coursera} 
 
-\section*{Qualifications}
+\section{Qualifications}
 
 \textit{Major languages}: Vietnamese, Python, Java, C/C++, Javascript, R
 \\
-\textit{Libraries and tools}: TensorFlow, Theano, Standford CoreNLP, scikit-learn, pandas
-
-
-
-\end{document}
-
-
+\textit{Libraries and tools}: TensorFlow, Theano, Stanford CoreNLP, scikit-learn, pandas
 
 \end{document}
