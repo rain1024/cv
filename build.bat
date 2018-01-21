@@ -3,7 +3,7 @@ IF "%1"=="" (
 ) else (
   SET message=%1
 )
-cp cv.pdf  pdf/cv.pdf
+cp cv.pdf  pdf/anhv_cv.pdf
 git status
 git add -A
 git commit -m %message%
