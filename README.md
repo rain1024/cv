@@ -1,3 +1,3 @@
 # My CV
 
-* [201704](https://github.com/rain1024/cv/tree/201704)
+* April 2017 [source](https://github.com/rain1024/cv/tree/201704), [pdf](https://github.com/rain1024/cv/tree/201704)
