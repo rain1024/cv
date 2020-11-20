@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.20)  20 NOV 2020 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.20)  20 NOV 2020 11:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,51 +741,58 @@ Package xcolor Warning: Incompatible color definition on input line 70.
 Package xcolor Warning: Incompatible color definition on input line 79.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--98
+Underfull \hbox (badness 10000) in paragraph at lines 84--112
 
  []
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 112.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--112
+
+ []
+
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 126.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 112
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 126
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 112
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 126
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 112.
+(Font)              <10.95> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 112.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 112.
+(Font)              <6> on input line 126.
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--122
+Underfull \hbox (badness 10000) in paragraph at lines 117--136
 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 142.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 159.
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--181
+Package xcolor Warning: Incompatible color definition on input line 158.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 
  []
 
@@ -793,21 +800,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--181
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package xcolor Warning: Incompatible color definition on input line 185.
+Package xcolor Warning: Incompatible color definition on input line 175.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--204
+
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 208.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (out/cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
  18438 strings out of 494923
  352925 string characters out of 6180741
- 515165 words of memory out of 5000000
+ 515160 words of memory out of 5000000
  21438 multiletter control sequences out of 15000+600000
  43819 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -819,10 +839,10 @@ c/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on out/cv.pdf (2 pages, 156761 bytes).
+Output written on out/cv.pdf (2 pages, 159877 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
