@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.27)  2 DEC 2020 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.27)  2 DEC 2020 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,7 +860,7 @@ ic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.
 pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on out/cv.pdf (2 pages, 159859 bytes).
+Output written on out/cv.pdf (2 pages, 159608 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
